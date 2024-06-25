@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    background-color: cornflowerblue;
+    padding:80px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+
+}
+.menu-meus-hobby {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.menu-meus-hobby a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    
+    
+}
+.corpo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    flex: 20%;
+    height:400px;
+    border: 1px solid blue;
+    margin:1%;
+    
+}  
+.card img {
+    margin: 10px;
+    
+} 
